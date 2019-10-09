@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>BinarySearch</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/binarysearch/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/binarysearch/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u21" class="ax_default heading_1">
+        <div id="u21_div" class=""></div>
+        <div id="u21_text" class="text ">
+          <p><span style="text-decoration:none;">Binary Search</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u22" class="ax_default box_3">
+        <div id="u22_div" class=""></div>
+        <div id="u22_text" class="text ">
+          <p><span style="text-decoration:none;">int arr[]={1,2,3,4,5,6,7,8};</span></p><p><span style="text-decoration:none;">int value=6,arrSize=8;</span></p><p><span style="text-decoration:none;">bool found=false;</span></p><p><span style="text-decoration:none;">int left=0,right=arrSize-1,mid;</span></p><p><span style="text-decoration:none;">while(left&lt;=right){</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; if(arr[mid]==value){</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; found=true;</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; break;</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; }</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; </span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; if(arr[mid]&lt;value){</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; left=mid+1;</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; }</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; </span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; else{</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; right=mid-1;</span></p><p><span style="text-decoration:none;">&nbsp;&nbsp; &nbsp; }</span></p><p><span style="text-decoration:none;">}</span></p><p><span style="text-decoration:none;">if(found) printf(&quot;Found\n&quot;);</span></p><p><span style="text-decoration:none;">else printf(&quot;Not found\n&quot;);</span></p><p><span style="text-decoration:none;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u23" class="ax_default box_1">
+        <img id="u23_img" class="img " src="images/binarysearch/u23.svg"/>
+        <div id="u23_text" class="text ">
+          <p><span style="text-decoration:none;">&gt;Binary Search is finding a value in a sorted list by eliminating half on each iteration until it the range of data is&nbsp; &nbsp;&nbsp; 1 or the value is found.</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u24" class="ax_default box_1">
+        <img id="u24_img" class="img " src="images/linearsearch/u16.svg"/>
+        <div id="u24_text" class="text ">
+          <p><span style="text-decoration:none;">&gt;Complexity O(log(N))</span></p>
+        </div>
+      </div>
+
+      <!-- BSSimulationLink (Rectangle) -->
+      <div id="u25" class="ax_default button" data-label="BSSimulationLink">
+        <div id="u25_div" class=""></div>
+        <div id="u25_text" class="text ">
+          <p><span style="text-decoration:none;">SIMULATION</span></p>
+        </div>
+      </div>
+
+      <!-- backBtn (Group) -->
+      <div id="u26" class="ax_default" data-label="backBtn" data-left="12" data-top="12" data-width="141" data-height="65">
+
+        <!-- Unnamed (Shape) -->
+        <div id="u27" class="ax_default icon">
+          <img id="u27_img" class="img " src="images/searchingalgorithm/u11.svg"/>
+          <div id="u27_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u28" class="ax_default heading_1">
+          <div id="u28_div" class=""></div>
+          <div id="u28_text" class="text ">
+            <p><span style="text-decoration:none;">BACK</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

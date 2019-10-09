@@ -1,3 +1,0 @@
-# TutorialHCI
-HCI project
-\
